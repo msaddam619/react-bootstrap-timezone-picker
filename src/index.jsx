@@ -130,8 +130,6 @@ class TimezonePicker extends React.Component {
       value: e.target.value || '',
       timezones,
     });
-
-    if(!e.target.value) this.props.onChange('');
   }
 
   handleFocus(ev) {
